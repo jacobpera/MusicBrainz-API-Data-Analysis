@@ -1,0 +1,14 @@
+Unique artists Dominic Fike has collaborated with:
+Slowthai
+Kenny beats
+Remi wolf
+Zendaya
+Paul mccartney
+Bakar
+Halsey
+Weezer
+Denzel curry
+Omar apollo
+Justin bieber
+
+Process finished with exit code 0
