@@ -30,7 +30,7 @@ def print_unique_collaborative_artists(collaborative_songs, artist_name):
     return list(unique_artists)
 
 if __name__ == "__main__":
-    # Specify the artist for whom you want to find collaborations
+    # Specify the artist for whom you want to find collaborations * EXAMPLE *
     artist_name = "Dominic Fike"
 
     offset = 0
@@ -39,7 +39,6 @@ if __name__ == "__main__":
     while True:
         collaborative_songs = fetch_collaborative_songs(artist_name, offset)
 
-        # If there are no more results, break from the loop
         if not collaborative_songs:
             break
 
@@ -47,7 +46,6 @@ if __name__ == "__main__":
 
         offset += len(collaborative_songs)
 
-    # Print the list of unique collaborative artists without any limit
     print(f"Unique artists {artist_name} has collaborated with:")
     for artist in collaborative_artists:
         print(artist.capitalize())
